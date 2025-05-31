@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inicio | Cuero y Pintura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Estilos.css" />
+  
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-grande">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Cuero y Pintura</a>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.php">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <section class="banner-principal" style="position: relative; height: 700px;">
+  <img src="img/Inicio.png" alt="Imagen de fondo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+  
+  <div class="banner-texto" style="
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    width: 90%;
+  ">
+    <h1 class="titulo-banner">TAPICERÍA CUERO Y PINTURA</h1>
+    <h3 class="subtitulo-banner">Diseñamos y transformamos tus muebles con dedicación y estilo.</h3>
+  </div>
+ </section>
+
+
+ <section class="container my-5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#222;">
+  
+  <style>
+    .container.my-5 h2.text-center {
+      font-weight: 700;
+      font-size: 2.8rem;
+      color: #3b3b98;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 3rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* Esto asegura que las columnas tengan igual alto */
+    .row.g-5 {
+      display: flex;
+      align-items: stretch;
+      flex-wrap: wrap; /* para que en móviles siga funcionando */
+    }
+
+    .col-md-6.text-center {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2rem;
+    }
+
+    /* La tarjeta interna con estilos */
+    .col-md-6.text-center .tarjeta {
+      background: #f7f9fc;
+      border-radius: 15px;
+      padding: 30px 20px;
+      box-shadow: 0 8px 20px rgba(59, 59, 152, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      flex: 1 1 auto; /* Expande para igualar altura */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .col-md-6.text-center .tarjeta:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 35px rgba(59, 59, 152, 0.25);
+    }
+
+    h5.mb-3 {
+      color: #3b3b98;
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 1.2rem;
+      line-height: 1.4;
+    }
+
+    a.btn.btn-primary {
+      background: #3b3b98;
+      border: none;
+      font-weight: 700;
+      padding: 12px 30px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      box-shadow: 0 5px 15px rgba(59, 59, 152, 0.3);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      align-self: center;
+    }
+
+    a.btn.btn-primary:hover {
+      background-color: #2a287d;
+      box-shadow: 0 8px 25px rgba(42, 40, 125, 0.6);
+      color: white;
+      text-decoration: none;
+    }
+
+    img[alt="Código QR App Inventor"] {
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(59, 59, 152, 0.2);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      max-width: 180px;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    img[alt="Código QR App Inventor"]:hover {
+      transform: scale(1.05);
+    }
+
+    iframe {
+      border-radius: 15px;
+      box-shadow: 0 5px 25px rgba(59, 59, 152, 0.15);
+      border: none;
+      max-width: 100%;
+    }
+
+    .ratio {
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(59, 59, 152, 0.2);
+    }
+
+    .col-12.text-center h2.mb-3 {
+      color: #3b3b98;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+
+  <h2 class="text-center mb-5">Juega y Explora</h2>
+
+  <div class="row g-5 justify-content-center align-items-center">
+
+    <!-- Juego de Scratch -->
+    <div class="col-md-6 text-center">
+      <div class="tarjeta">
+        <h5 class="mb-3">Juega directamente aquí:</h5>
+        <iframe src="https://scratch.mit.edu/projects/1174117612/embed" allowtransparency="true"
+                width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- App Inventor -->
+<div class="col-md-6 text-center">
+  <div class="tarjeta">
+    <h5 class="mb-3">Descarga nuestra App</h5>
+    <p>Instala la aplicación en tu celular Android.</p>
+
+    <!-- Enlace directo al archivo APK -->
+    <a href="descargas/Registro_Cuero_Y_Pintura (1).apk" class="btn btn-primary mb-3" download>
+      Descargar App
+    </a><br>
+
+    <!-- Imagen del código QR si deseas agregarlo -->
+    <p>Escanea este código QR para instalarla:</p>
+    <img src="img/descargaraplicacion.gif" alt="Código QR App Inventor" width="180">
+  </div>
+</div>
+
+<!-- Sección Kahoot -->
+<div class="col-md-6 text-center">
+  <div class="tarjeta" style="
+    background-image: url('img/kahootfondo.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+  ">
+     <h5 class="mb-3" style="color: red;">Juego de Preguntas</h5>
+    <p style="color: red;"><br><br><br>¡Responde preguntas sobre nuestros servicios y demuestra cuánto sabes!</p>
+    <a href="https://kahoot.it/challenge/?quiz-id=8adff84e-07c2-4873-9cc3-7d0adc7b273f&single-player=true"
+     target="_blank" class="btn btn-success">
+      Jugar Kahoot
+    </a>
+  </div>
+</div>
+
+    <!-- Video de YouTube -->
+    <div class="col-12 text-center">
+      <h2 class="mb-3">Video Presentación</h2>
+      <div class="ratio ratio-16x9">
+        <iframe 
+          src="https://www.youtube.com/embed/8oU1MxGwFFU" 
+          title="YouTube video player" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 Tapicería Cuero y Pintura. Todos los derechos reservados.</p>
+  </footer>
+
+
+  <script>
+  window.addEventListener('load', () => {
+    const tarjetas = document.querySelectorAll('.col-md-6.text-center .tarjeta');
+    let maxHeight = 0;
+    tarjetas.forEach(tarjeta => {
+      tarjeta.style.height = 'auto';  // Reset para que mida la altura natural
+      const altura = tarjeta.offsetHeight;
+      if (altura > maxHeight) maxHeight = altura;
+    });
+    tarjetas.forEach(tarjeta => {
+      tarjeta.style.height = maxHeight + 'px';  // Asignar altura máxima
+    });
+  });
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
